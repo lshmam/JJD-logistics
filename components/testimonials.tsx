@@ -7,31 +7,31 @@ import { motion } from "framer-motion"
 const testimonials = [
   {
     quote:
-      "I saved over $400 using JJDLogistics over my previous company. The customer support staff was very helpful. I will definitely be using JJD Logistics again!",
+      "I saved over $400 using JJD Logistics over my previous company. The customer support staff was very helpful. I will definitely be using JJD Logistics again!",
     author: "Brian Butler",
     company: "B&B Industrial Solutions",
-    location: "Birmingham, Ontario",
+    location: "Vancouver, BC",
   },
   {
     quote:
       "A great service that gives you confidence knowing you are getting the best price. I would not go any other way.",
     author: "Shelly Fraser",
     company: "Pacific Home Furnishings",
-    location: "Seattle, Washington",
+    location: "Victoria, BC",
   },
   {
     quote:
       "I have been shipping with JJD Logistics for two years, with 4 to 5 shipments monthly. I would recommend using JJD Logistics to any business looking for reduced shipping costs.",
     author: "Dave Goodman",
     company: "Oak Furniture Wholesale",
-    location: "Lansing, New York",
+    location: "Surrey, BC",
   },
   {
     quote:
       "I've had excellent service from JJD Logistics this far. Their sales team has been prompt, on time, and easy to work with. Great communication, and the accurate quotes we received upfront allowed our planning correctly.",
     author: "Michael Jacobs",
     company: "Ceres Industrial Solutions",
-    location: "Vancouver, British Columbia",
+    location: "Delta, BC",
   },
 ]
 
