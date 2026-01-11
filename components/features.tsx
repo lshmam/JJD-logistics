@@ -75,7 +75,7 @@ const iconVariants = {
 
 export function Features() {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="services" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <motion.div

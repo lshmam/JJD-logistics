@@ -73,7 +73,7 @@ const cardVariants = {
 
 export function Testimonials() {
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="testimonials" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-12"

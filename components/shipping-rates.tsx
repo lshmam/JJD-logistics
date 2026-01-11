@@ -41,7 +41,7 @@ const imageVariants = {
 
 export function ShippingRates() {
   return (
-    <section className="relative py-24 md:py-32 bg-muted overflow-hidden">
+    <section id="how-it-works" className="relative py-24 md:py-32 bg-muted overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left - Content */}

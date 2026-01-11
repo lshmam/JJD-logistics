@@ -8,11 +8,11 @@ import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 
 const navLinks = [
-  { href: "#", label: "How it Works" },
-  { href: "#", label: "Services" },
-  { href: "#", label: "About" },
-  { href: "#", label: "Testimonials" },
-  { href: "#", label: "Contact" },
+  { href: "#how-it-works", label: "How it Works" },
+  { href: "#services", label: "Services" },
+  { href: "#about", label: "About" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
 ]
 
 const headerVariants = {
@@ -130,7 +130,11 @@ export function Header() {
               <nav className="flex flex-col gap-4">
                 {navLinks.map((link) => (
                   <motion.div key={link.label} variants={mobileNavItemVariants}>
-                    <Link href={link.href} className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                    <Link
+                      href={link.href}
+                      className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
                       {link.label}
                     </Link>
                   </motion.div>

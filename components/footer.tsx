@@ -88,7 +88,9 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>jjdlogisticsltd@gmail.com</span>
+                <a href="mailto:jjdlogisticsltd@gmail.com" className="hover:text-background transition-colors">
+                  jjdlogisticsltd@gmail.com
+                </a>
               </div>
             </div>
           </motion.div>

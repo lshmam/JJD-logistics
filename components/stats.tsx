@@ -29,7 +29,7 @@ const itemVariants = {
 
 export function Stats() {
   return (
-    <section className="relative py-24 md:py-32 bg-primary">
+    <section id="contact" className="relative py-24 md:py-32 bg-primary">
       <div className="container mx-auto px-4 md:px-12 lg:px-24">
         <motion.div
           className="max-w-3xl mx-auto text-center"
