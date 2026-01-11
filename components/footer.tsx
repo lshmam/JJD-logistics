@@ -72,7 +72,7 @@ export function Footer() {
                 height={40}
                 className="rounded-lg"
               />
-              <span className="text-xl font-bold text-background">JJD LOGISTICS</span>
+              <span className="text-xl font-bold text-background uppercase tracking-wide" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>JJD Logistics</span>
             </Link>
             <p className="text-background/60 text-sm leading-relaxed mb-4">
               Your trusted partner for freight delivery across Vancouver Island and the Lower Mainland.
@@ -84,7 +84,9 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <span>Call for a Quote</span>
+                <a href="tel:2897952786" className="hover:text-background transition-colors">
+                  Call for a Quote
+                </a>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />

@@ -81,7 +81,7 @@ export function Header() {
               height={40}
               className="rounded-lg"
             />
-            <span className="text-xl font-bold text-foreground">JJD LOGISTICS LTD</span>
+            <span className="text-xl font-bold text-foreground uppercase tracking-wide" style={{ fontFamily: 'var(--font-barlow-condensed)' }}>JJD Logistics Ltd.</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">
