@@ -80,9 +80,11 @@ export function ShippingRates() {
               </li>
             </motion.ul>
             <motion.div variants={itemVariants}>
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3">
-                GET A QUOTE
-              </Button>
+              <a href="tel:2897952786">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-3">
+                  GET A QUOTE
+                </Button>
+              </a>
             </motion.div>
           </motion.div>
 
