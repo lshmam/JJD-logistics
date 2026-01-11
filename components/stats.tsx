@@ -53,11 +53,11 @@ export function Stats() {
           </motion.p>
           <motion.a
             variants={itemVariants}
-            href="tel:6047494478"
+            href="tel:2897952786"
             className="inline-flex items-center gap-2 bg-background text-foreground font-semibold px-8 py-4 rounded-full text-lg hover:bg-background/90 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            Call Now: (604) 749-4478
+            Call Now: (289) 795-2786
           </motion.a>
         </motion.div>
       </div>

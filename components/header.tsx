@@ -105,10 +105,12 @@ export function Header() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.4, delay: 0.5 }}
           >
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
-              <Phone className="h-4 w-4" />
-              Call for a Quote
-            </Button>
+            <a href="tel:2897952786">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
+                <Phone className="h-4 w-4" />
+                Call (289) 795-2786
+              </Button>
+            </a>
           </motion.div>
 
           <button className="md:hidden p-2" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
@@ -134,10 +136,12 @@ export function Header() {
                   </motion.div>
                 ))}
                 <motion.div variants={mobileNavItemVariants} className="flex flex-col gap-2 pt-4 border-t border-border">
-                  <Button className="bg-primary hover:bg-primary/90 text-primary-foreground w-full gap-2">
-                    <Phone className="h-4 w-4" />
-                    Call for a Quote
-                  </Button>
+                  <a href="tel:2897952786" className="w-full">
+                    <Button className="bg-primary hover:bg-primary/90 text-primary-foreground w-full gap-2">
+                      <Phone className="h-4 w-4" />
+                      Call (289) 795-2786
+                    </Button>
+                  </a>
                 </motion.div>
               </nav>
             </motion.div>

@@ -12,7 +12,7 @@ const features = [
     description:
       "We provide comprehensive freight delivery services across Vancouver Island and the Lower Mainland. Our extensive route network ensures your cargo reaches its destination quickly and safely.",
     linkText: "LEARN MORE",
-    image: "/jjd-3.jpeg",
+    image: "/jjd-9.jpg",
   },
   {
     icon: Calendar,

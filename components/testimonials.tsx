@@ -83,7 +83,7 @@ export function Testimonials() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Key Automated Freight Solution in North America
+            Key Automated Freight Solution in Canada
           </h2>
           <div className="flex items-center justify-center gap-1">
             {[...Array(5)].map((_, i) => (

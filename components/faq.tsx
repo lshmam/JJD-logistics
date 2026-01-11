@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "What is JJD Logistics?",
     answer:
-      "JJD Logistics is a freight marketplace that connects businesses with top carriers across North America. We provide instant quotes, easy online booking, and competitive rates for LTL, FTL, rail, and intermodal shipping.",
+      "JJD Logistics is a freight marketplace that connects businesses with top carriers across Canada. We provide instant quotes, easy online booking, and competitive rates for LTL, FTL, rail, and intermodal shipping.",
   },
   {
     question: "How does JJD Logistics work?",
